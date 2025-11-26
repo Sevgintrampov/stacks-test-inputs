@@ -11,6 +11,6 @@ provider "null" "this" {}
 component "null" {
   source = "./null"
   providers = {
-    random = provider.null.this
+    null = provider.null.this
   }
 }
