@@ -6,6 +6,9 @@ terraform {
     }
   }
 }
+variable "petname" {
+  type        = list(string) 
+}
 provider "null" "this" {}
 component "null" {
   source = "./null"
