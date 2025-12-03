@@ -7,6 +7,10 @@ required_providers {
 variable "petname" {
   type        = list(string) 
 }
+variable "aloda" {
+  type        = object(map) 
+}
+
 provider "null" "this" {}
 component "null" {
   source = "./null"
