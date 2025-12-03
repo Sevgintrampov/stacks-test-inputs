@@ -7,7 +7,8 @@ required_providers {
 variable "petname" {
   type        = list(string) 
 }
-variable "aloda" type = map(object({
+variable "aloda" {
+type = map(object({
     current_kubernetes_version = map(string)
     id                         = map(string)
   }))
