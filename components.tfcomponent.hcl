@@ -11,6 +11,7 @@ variable "aloda" type = map(object({
     current_kubernetes_version = map(string)
     id                         = map(string)
   }))
+}
 
 provider "null" "this" {}
 component "null" {
