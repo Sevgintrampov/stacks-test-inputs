@@ -13,7 +13,9 @@ type = map(object({
     id                         = map(string)
   }))
 }
-
+output "test" {
+value = var.aloda
+}
 provider "null" "this" {}
 component "null" {
   source = "./null"
