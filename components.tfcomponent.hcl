@@ -19,4 +19,7 @@ component "null" {
   providers = {
     null = provider.null.this
   }
+inputs = {
+    aloda = var.aloda
+  }
 }
