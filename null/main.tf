@@ -22,3 +22,4 @@ variable "aloda" {
     id                         = map(string)
   }))
 }
+#
